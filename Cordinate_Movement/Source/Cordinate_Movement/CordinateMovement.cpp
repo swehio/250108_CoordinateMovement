@@ -83,3 +83,6 @@ void ACordinateMovement::visitShop(float movDist) {
 		UE_LOG(LogTemp, Log, TEXT("You can't get anything"));
 
 }
+
+//깃허브 데스크톱 테스트
+//언리얼이 열려있으면 커밋이 불가능한지 테스트
