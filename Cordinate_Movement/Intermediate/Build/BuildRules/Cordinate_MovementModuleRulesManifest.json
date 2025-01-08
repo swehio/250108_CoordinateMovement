@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\SCCUnreal\\Unreal\\Cordinate_Movement\\Source\\Cordinate_Movement\\Cordinate_Movement.Build.cs",
-		"E:\\SCCUnreal\\Unreal\\Cordinate_Movement\\Source\\Cordinate_Movement.Target.cs",
-		"E:\\SCCUnreal\\Unreal\\Cordinate_Movement\\Source\\Cordinate_MovementEditor.Target.cs"
+		"E:\\Git\\250108_CoordinateMovement\\Cordinate_Movement\\Source\\Cordinate_Movement\\Cordinate_Movement.Build.cs",
+		"E:\\Git\\250108_CoordinateMovement\\Cordinate_Movement\\Source\\Cordinate_Movement.Target.cs",
+		"E:\\Git\\250108_CoordinateMovement\\Cordinate_Movement\\Source\\Cordinate_MovementEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }

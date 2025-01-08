@@ -10,8 +10,8 @@ UCLASS()
 class CORDINATE_MOVEMENT_API ACordinateMovement : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ACordinateMovement();
 
@@ -19,17 +19,19 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 	void move();
 	int step();
 	float distance(FVector2D first, FVector2D second);
-	void createEvent(float probability);
+	void createEvent(float probability, float movDist);
+	void visitShop(float movDist);
 
 
 	FVector2D getCurCoordinate() {
-		return start[start.Num()-1];
+		return start[start.Num() - 1];
 	}
 	FVector2D getPreCoordinate() {
 		return start[start.Num() - 2];
@@ -49,6 +51,6 @@ private:
 	TArray<FVector2D> start;
 	int32 evCnt = 0;
 	float totDist;
-	
+
 
 };
