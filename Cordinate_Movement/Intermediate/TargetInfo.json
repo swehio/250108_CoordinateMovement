@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Cordinate_Movement",
+			"Path": "..\\Source\\Cordinate_Movement.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Cordinate_MovementEditor",
+			"Path": "..\\Source\\Cordinate_MovementEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
